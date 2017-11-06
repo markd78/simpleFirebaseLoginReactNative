@@ -3,9 +3,10 @@ import {
   AppRegistry,
   View,
   ToolbarAndroid,
-  ActivityIndicator
+  ActivityIndicator,
+  Button
 } from 'react-native';
-import { Header,Title,Container, Content, List, ListItem, InputGroup, Input, Icon, Text, Picker, Button } from 'native-base';
+import { Header,Title,Container, Content, List, ListItem, InputGroup, Input, Icon, Text, Picker } from 'native-base';
 import { StackNavigator, NavigationActions } from 'react-navigation' 
 
 import styles from '../styles/mainstyle.js';

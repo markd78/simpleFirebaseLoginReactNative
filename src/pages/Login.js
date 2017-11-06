@@ -4,9 +4,10 @@ import {
   AsyncStorage,
   View,
   ToolbarAndroid,
-  ActivityIndicator
+  ActivityIndicator,
+  Button
 } from 'react-native';
-import { Header,Container,Title, Content, List, ListItem, InputGroup, Input, Icon, Text, Picker, Button } from 'native-base';
+import { Header,Container,Title, Content, List, ListItem, InputGroup, Input, Icon, Text, Picker } from 'native-base';
 import React, {Component} from 'react';
  import Signup from './Signup';
 import Account from './Main'
@@ -54,7 +55,7 @@ export default class Login extends Component {
                         </InputGroup>
                    </ListItem>
                   </List>
-                  <Button style={styles.primaryButton} onPress={this.login.bind(this)} title="Login"/>
+                  <Button  onPress={this.login.bind(this)} title="Login" width='150'  height= '60'/>
                  
                   <Button onPress={this.goToSignup.bind(this)} style={styles.primaryButton} title="New Here?"/>
                     

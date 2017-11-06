@@ -72,18 +72,6 @@ export class SocialVid extends Component {
 
       
     );
- /*  }
-  else {
-      return (
-        // Our default loading view while waiting to hear back from firebase
-        <View style={styles.container}>
-          <ToolbarAndroid title="Login" />
-          <View style={styles.body}>
-            <ActivityIndicator size="large" />
-          </View>
-        </View>
-      );
-	}*/
   }
 }
  
